@@ -1,0 +1,7 @@
+order_id,order_date,customer_id,customer_name,city,country,category,quantity,unit_price,currency,email,last_updated,rejection_reason
+O1011,2024-03-11,C010,Julia Hoffmann,Berlin,Germany,Electronics,-1,199.00,EUR,julia.h@mail.de,2024-03-11,quantity outside allowed range 1..100
+O1012,2024-03-12,C011,Karl Schulz,Munich,Germany,Accessories,2,,EUR,karl.s@mail.de,2024-03-12,missing unit_price
+O1014,2024-03-14,C013,Max Richter,Zurich,Switzerland,Electronics,1,349.00,CHF,max.r@mail.ch,2024-03-14,unsupported currency (EUR-only output)
+O1015,2024-03-15,C014,Nora Wolf,Hamburg,Germany,Accessories,500,14.90,EUR,nora.w@mail.de,2024-03-15,quantity outside allowed range 1..100
+O1021,2024-03-20,C019,Sven Krause,Hanover,Germany,Electronics,1,999.00,USD,sven.k@mail.com,2024-03-20,unsupported currency (EUR-only output)
+O1022,2024-03-20,C020,Tina Vogel,Berlin,Germany,Accessories,2,24.90,EUR,tina.v@mail.de,2024-03-20,duplicate order_id

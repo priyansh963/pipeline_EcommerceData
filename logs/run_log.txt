@@ -1,0 +1,11 @@
+Run date: 2026-11-14
+Input: data\raw\orders_2024_03.csv
+Rows read: 32
+Accepted: 26
+Quarantined: 6
+  - duplicate order_id: 1
+  - missing unit_price: 1
+  - quantity outside allowed range 1..100: 2
+  - unsupported currency (EUR-only output): 2
+Outputs: data/processed/clean_orders.csv, data/processed/revenue_by_category.csv,
+         data/quarantine/rejected_orders.csv
